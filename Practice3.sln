@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonHunterApp", "ButtonHunterApp\ButtonHunterApp.csproj", "{343FA9FB-A78D-43D0-83F7-266B7B87FC1A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonHunterAppTest", "ButtonHunterAppTest\ButtonHunterAppTest.csproj", "{325C65A1-C1B7-4A06-87C8-7159386E607F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ButtonHunterAppTest", "ButtonHunterAppTest\ButtonHunterAppTest.csproj", "{325C65A1-C1B7-4A06-87C8-7159386E607F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0B9F842A-E4BB-4254-ACE0-A142360C4D19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{325C65A1-C1B7-4A06-87C8-7159386E607F} = {0B9F842A-E4BB-4254-ACE0-A142360C4D19}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {179682DF-AE3E-48BE-A345-421C870EF29B}
